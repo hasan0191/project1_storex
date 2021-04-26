@@ -1,0 +1,128 @@
+
+@media (min-width: 992px){
+	
+	.menu .middle-responsive{
+	display: none;
+	}
+	.menu .middle{
+	margin-left: -15%;
+	}
+	.categories-area .allCatMargin{
+	overflow: hidden;
+}
+
+
+}/*media query min-width 991px close*/
+
+@media (max-width: 991px){
+	/*menu area*/
+	.menu .middle-responsive{
+	margin-left: -15%;
+	display: block;
+	}
+	.menu .middle{
+	margin-left: -15%;
+	display: none;
+	}
+	.menu .navbar .flexBoy {
+		display: block;
+    text-align: center;
+    }
+	.menu .right ul {
+    display: flex;
+    justify-content: center;
+    }
+
+
+	/*banner area*/
+	.banner .banner-content h4 {
+    font-size: 24px;
+	}
+
+
+	.banner .banner-content h1 {
+	    font-size: 40px;
+	}
+	.banner .banner-content p {
+	    font-size: 18px;
+	}
+	.banner .banner-content a {
+    font-size: 13px;
+    padding: 8px 30px;
+	}
+
+	/*service area*/
+	.service-area .mdPadding{
+		padding: 20px;
+	}
+
+
+}/*media query max-width 991px close*/
+
+@media (max-width: 767px){
+	/*banner area*/
+	.banner .banner-content h4 {
+    font-size: 16px;
+	}
+	.banner .banner-content h1 {
+	    font-size: 28px;
+	}
+	.banner .banner-content p {
+	    font-size: 13px;
+	}
+	.banner .banner-content a {
+    font-size: 12px;
+    padding: 7px 25px;
+    margin-top: 10px;
+	}
+	.categories-area .categories-post{
+		text-align: center;
+	}
+	.categories-area .categories-post .cat-content{
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translateY(-50%);
+}
+
+}/*media query max-width 767px close*/
+
+@media (max-width: 575px){
+	/*banner area*/
+	.banner .banner-content h4 {
+    font-size: 12px;
+    letter-spacing: 1px;
+	}
+	.banner .banner-content h1 {
+	    font-size: 20px;
+	}
+	.banner .banner-content p {
+	    display: none;
+	}
+	.banner .banner-content a {
+    font-size: 10px;
+    padding: 7px 25px;
+    margin-top: 10px;
+	}
+}/*media query max-width 575px close*/
+
+@media (max-width: 320px){
+	/*banner area*/
+	.banner .banner-content h4 {
+    font-size: 12px;
+    letter-spacing: 1px;
+	}
+	.banner .banner-content h1 {
+	    font-size: 16px;
+	}
+	.banner .banner-content a {
+    font-size: 8px;
+    padding: 7px 25px;
+    margin-top: 4px;
+	}
+
+	.categories-area .categories-post img{
+		height: 130px;
+		width: 260px;
+	}
+}/*media query max-width 575px close*/
